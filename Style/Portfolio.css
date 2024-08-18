@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+}
+
+/* Nav Bar*/
+ul {
+	top: 0px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	list-style-type: none;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	color: white;
+	display: flex;
+	font-size: 25px;
+	padding: 14px 20px;
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+li a img {
+	width: 35px;
+	height: 35px;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+li a:hover {
+	background-color: #0033cc;
+}
+
+/*Footer*/
+.Footer {
+	
+	bottom: 0px;
+	width: 100%;
+	color: white;
+	position: fixed;
+	text-align: center;
+	background-color: #333;
+}
