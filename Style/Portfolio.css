@@ -1,8 +1,9 @@
 body {
 	margin: 0;
+	font-family: 'Inter', sans-serif;
 }
 
-/* Nav Bar*/
+/* Nav Bar */
 ul {
 	top: 0px;
 	width: 100%;
@@ -20,7 +21,7 @@ li {
 li a {
 	color: white;
 	display: flex;
-	font-size: 25px;
+	font-size: 20px;
 	padding: 14px 20px;
 	text-align: center;
 	align-items: center;
@@ -28,19 +29,35 @@ li a {
 }
 
 li a img {
-	width: 35px;
-	height: 35px;
+	width: 25px;
+	height: 25px;
 	padding-left: 5px;
 	padding-right: 10px;
 }
 
 li a:hover {
-	background-color: #0033cc;
+	background-color: #1a1aff;
 }
 
-/*Footer*/
+/* Contact */
+.Contact {
+	width: 100%;
+	bottom: 52px;
+	color: white;
+	position: fixed;
+	text-align: center;
+	align-items: center;
+	background-color: #111;
+}
+
+#SocialMedia {
+	width: 50px;
+	height: 50px;
+	padding: 10px 20px;
+}
+
+/* Footer */
 .Footer {
-	
 	bottom: 0px;
 	width: 100%;
 	color: white;
