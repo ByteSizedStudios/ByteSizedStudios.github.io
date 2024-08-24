@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
 	font-family: 'Inter', sans-serif;
@@ -36,17 +40,18 @@ li a img {
 }
 
 li a:hover {
-	background-color: #1a1aff;
+	background-color: #111;
 }
 
 /* Contact */
 .Contact {
 	width: 100%;
-	bottom: 52px;
+	bottom: 50px;
 	color: white;
 	position: fixed;
 	text-align: center;
 	align-items: center;
+	padding-bottom: 5px;
 	background-color: #111;
 }
 
