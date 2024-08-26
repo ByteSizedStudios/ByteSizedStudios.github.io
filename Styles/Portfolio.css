@@ -8,7 +8,7 @@ body {
 }
 
 /* Nav Bar */
-ul {
+ul.NavBar {
 	top: 0px;
 	width: 100%;
 	margin: 0px;
@@ -18,11 +18,11 @@ ul {
 	background-color: #333;
 }
 
-li {
+ul.NavBar li {
 	float: left;
 }
 
-li a {
+ul.NavBar li a {
 	color: white;
 	display: flex;
 	font-size: 20px;
@@ -32,15 +32,51 @@ li a {
 	text-decoration: none;
 }
 
-li a img {
+ul.NavBar li a img {
 	width: 25px;
 	height: 25px;
 	padding-left: 5px;
 	padding-right: 10px;
 }
 
-li a:hover {
+ul.NavBar li a:hover {
 	background-color: #111;
+}
+
+ul.NavBar li.Icon {
+	display: none;
+}
+
+@media screen and (max-width: 700px) {
+    ul.NavBar li:not(:first-child) {
+		display: none;
+	}
+    ul.NavBar li.Icon {
+        float: right;
+        display: inline-block;
+    }
+	ul.NavBar.responsive li {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	ul.NavBar.Responsive li:not(:first-child) {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 700px) {
+    ul.NavBar.Responsive {position: relative;}
+    ul.NavBar.Responsive li.Icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	ul.NavBar.Responsive li {
+		float: none;
+		display: block;
+		text-align: left;
+	}
 }
 
 /* Contact */
