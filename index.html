@@ -7,54 +7,29 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<script src="Scripts/Portfolio.js"></script>
+		<script src="Scripts/Portfolio_Navbar.js"></script>
 
-		<link rel="StyleSheet" href="Styles/Portfolio.css">
-		<link rel="StyleSheet" href="Styles/ContentStyle.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+		<link rel="StyleSheet" href="Styles/Portfolio_Navbar.css">
+		<link rel="StyleSheet" href="Styles/Portfolio_Content.css">
+		<link rel="StyleSheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
 	</head>
 	<body>
 		<!-- Nav bar -->
 		<ul class="NavBar" id="Nav">
-			<li><a href="">Home</a></li>
-			<li><a href="#About_Section"><img src="Pictures/Icons/About_Icon.png">About</a></li>
-			<li><a href="#Projects_Section"><img src="Pictures/Icons/Projects_Icon.png">Projects</a></li>
-			<li><a href="#Contact_Section"><img src="Pictures/Icons/Contact_Icon.png">Contact</a></li>
-			<li><a href="Downloadables/Resume.pdf" download><img src="Pictures/Icons/Resume_Icon.png">Resume</a></li>
+			<div class="LeftMenu">
+				<li><a href="index.html">Home</a></li>
+			</div>
+			<div class="RightMenu">
+				<li><a href="#About_Section"><img src="Pictures/Icons/About_Icon.png">About</a></li>
+				<li><a href="#Projects_Section"><img src="Pictures/Icons/Projects_Icon.png">Projects</a></li>
+				<li><a href="#Contact_Section"><img src="Pictures/Icons/Contact_Icon.png">Contact</a></li>
+				<li><a href="Downloadables/Resume.pdf" download><img src="Pictures/Icons/Resume_Icon.png">Resume</a></li>
+			</div>
 			<li class="Icon">
 				<a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
 			</li>
 		</ul>
 		
-		<!-- Introduction -->
-		<div class="About" id="About_Section">
-			
-		</div>
 		
-		<!-- Game Engine -->
-		<div class="GameEngine" id="Engine_Section">
-			
-		</div>
-		
-		<!-- Featured Projects -->
-		<div class="FeaturedProjects" id="Projects_Section">
-			
-		</div>
-
-		<!-- Contact -->
-		<div class="Contact" id="Contact_Section">
-			<h1>Contact Me</h1>
-			<p>Please feel free to <a href="mailto:peter.tranz.6225@gmail.com">email</a> me. You can also find me on these social media platforms:</p>
-			<a href="https://www.linkedin.com/in/petertran00/"><img id="SocialMedia" src="Pictures/Logos/Linkedin_Logo.png"></a>
-			<a href="https://github.com/ByteSizedStudios"><img id="SocialMedia" src="Pictures/Logos/Github_Logo.png"></a>
-			<a href="https://sketchfab.com/MByteSizedStudio"><img id="SocialMedia" src="Pictures/Logos/Sketchfab_Logo.png"></a>
-			<a href="https://twitter.com/CookiesNull"><img id="SocialMedia" src="Pictures/Logos/Twitter_Logo.png"></a>
-			<a href="https://www.youtube.com/@ManyBytesStudios"><img id="SocialMedia" src="Pictures/Logos/Youtube_Logo.png"></a>
-		</div>
-		
-		<!-- Footer -->
-		<div class="Footer">
-			<p>Copyright &copy by Peter Tran | All images, logos are used with permission.</p>
-		</div>
 	</body>
 </html>

@@ -4,33 +4,32 @@
 		<title>Byte Sized Studios</title>
 		<link rel="icon" type="image/x-icon" href="">
 		
-		<meta charset="">
-		<meta>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<script src="Scripts/Portfolio_Navbar.js"></script>
+
+		<link rel="StyleSheet" href="Styles/Portfolio_Navbar.css">
+		<link rel="StyleSheet" href="Styles/Portfolio_Content.css">
+		<link rel="StyleSheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
 	</head>
 	<body>
 		<!-- Nav bar -->
-		<div class="NavBar">
-			
-		</div>
+		<ul class="NavBar" id="Nav">
+			<div class="LeftMenu">
+				<li><a href="index.html">Home</a></li>
+			</div>
+			<div class="RightMenu">
+				<li><a href="#About_Section"><img src="Pictures/Icons/About_Icon.png">About</a></li>
+				<li><a href="#Projects_Section"><img src="Pictures/Icons/Projects_Icon.png">Projects</a></li>
+				<li><a href="#Contact_Section"><img src="Pictures/Icons/Contact_Icon.png">Contact</a></li>
+				<li><a href="Downloadables/Resume.pdf" download><img src="Pictures/Icons/Resume_Icon.png">Resume</a></li>
+			</div>
+				<li class="Icon">
+					<a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
+				</li>
+		</ul>
 		
-		<!-- Introduction -->
-		<div class="Introduction">
 		
-		</div>
-		
-		<!-- Game Engine -->
-		<div class="GameEngine">
-		
-		</div>
-		
-		<!-- Featured Projects -->
-		<div class="FeaturedProjects">
-		
-		</div>
-		
-		<!-- Footer -->
-		<div class="Footer">
-		
-		</div>
 	</body>
 </html>

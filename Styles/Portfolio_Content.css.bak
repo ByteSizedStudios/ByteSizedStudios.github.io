@@ -1,0 +1,8 @@
+/* Webpage Style */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+}
