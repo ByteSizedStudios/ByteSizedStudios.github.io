@@ -26,7 +26,7 @@ ul.NavBar li a img {
 	padding-right: 10px;
 }
 ul.NavBar li a:hover {
-	background-color: #000066;
+	background-color: #0000cc;
 }
 ul.NavBar li.Icon {
 	display: none;
@@ -36,6 +36,7 @@ ul.NavBar li.Icon {
 /* Nav Bar Alignment */
 ul.NavBar .LeftMenu {
 	display: flex;
+	color: #0000cc;
 	padding-left: 10%;
 }
 ul.NavBar .RightMenu {
@@ -64,7 +65,7 @@ ul.NavBar .RightMenu {
 		position: absolute;
 		flex-direction: column;
 		background-color: #1a1a1a;
-		transition: max-height 0.3s ease-out;
+		transition: max-height 0.4s ease-out;
 	}
 	ul.NavBar.Responsive .RightMenu {
 		max-height: 500px;
