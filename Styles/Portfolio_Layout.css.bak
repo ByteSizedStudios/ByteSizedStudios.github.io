@@ -6,8 +6,11 @@ html {
 body {
 	margin: 0;
 	color: white;
+	hyphens: auto;
 	text-align: center;
 	align-items: center;
+	word-spacing: 0.05em;
+	letter-spacing: normal;
 	font-family: 'Inter', sans-serif;
 }
 
@@ -17,6 +20,7 @@ ul.NavBar {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	z-index: 1000;
 	display: flex;
 	position: fixed;
 	list-style-type: none;
@@ -114,6 +118,7 @@ div.SectionContent {
 	text-align: justify;
 }
 
+/* My Introduction */
 #Introduction {
 	padding-left: 10%;
 	padding-right: 10%;

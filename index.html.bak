@@ -55,32 +55,26 @@
 				<div Class="SectionContent">
 					<div class="ProjectGrid">
 						<div class="GridItem">
-							<img src="Pictures/Projects/UnityAssets.png">
+							<img src="Pictures/Projects/SRB.png">
 							<div class="PictureOverlay">
-								<p>Unity Custom Assets</p>
+								<p>12 Hour<br>Unity Game</p>
+							</div>
+							<div class="ProjectDescription">
+								<p>Designed and developed a Minimum Viable Products (MVP) for a games under tight time constraints. After the inital MVP phase, dedicated additional time to refine and complete the final product.</p>
 							</div>
 						</div>
-						
-						<div class="GridItem">
-							<img src="Pictures/Projects/UnityAssets.png">
-							<div class="PictureOverlay">
-								<p>Unity Custom Assets</p>
+					
+						<a class="GridLink" href="">
+							<div class="GridItem">
+								<img src="Pictures/Projects/UnityAssets.png">
+								<div class="PictureOverlay">
+									<p>Unity Custom Assets</p>
+								</div>
+								<div class="ProjectDescription">
+									<p>Developed a suite of universal tools and game mechanics assets for the Unity game engine, streamlining and enhancing game development workflows across various projects.</p>
+								</div>
 							</div>
-						</div>
-						
-						<div class="GridItem">
-							<img src="Pictures/Projects/UnityAssets.png">
-							<div class="PictureOverlay">
-								<p>Unity Custom Assets</p>
-							</div>
-						</div>
-						
-						<div class="GridItem">
-							<img src="Pictures/Projects/UnityAssets.png">
-							<div class="PictureOverlay">
-								<p>Unity Custom Assets</p>
-							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
