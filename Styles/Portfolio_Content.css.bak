@@ -11,6 +11,7 @@ body {
 	font-family: 'Inter', sans-serif;
 }
 
+/* Portfolio Content Layout */
 div.PortfolioContent {
 	background-color: #333333;
 }
@@ -24,31 +25,18 @@ div.SectionHeader hr.SectionDivider {
 	border-radius: 3px;
 	border: 2px solid #0000cc;
 }
-
 div.SectionContent {
 	padding-left: 20%;
 	padding-right: 20%;
-	padding-bottom: 20px;
-}
-
-
-/* About Section */
-.About {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	/*background-color: #000066;*/
-}
-.About p {
+	padding-bottom: 5%;
 	text-align: justify;
 }
 
 /* Contact/Socal Media Section */
-.Contact {
-	padding-top: 10px;
+.SectionContact {
 	padding-bottom: 10px;
-	/*background-color: #000066;*/
 }
-.Contact img {
+.SectionContact img {
 	width: 50px;
 	height: 50px;
 	padding: 10px 20px;

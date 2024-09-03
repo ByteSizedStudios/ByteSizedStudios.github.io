@@ -1,0 +1,40 @@
+div.ProjectGrid {
+	gap: 30px;
+	display: grid;
+	padding-left: 13%;
+	padding-right: 10%;
+	align-items: center;
+	justify-content: center;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+div.GridItem {
+	width: 250px;
+	height: 250px;
+	display: grid;
+	position: relative;
+	border-style: solid;
+	border-color: white;
+	border-radius: 10px;
+	background-color: #1a1a1a;
+}
+div.GridItem img {
+	width: 250px;
+	height: auto;
+}
+div.GridItem div.PictureOverlay {
+	bottom: 0;
+	height: 20%;
+	width: 100%;
+	display: flex;
+	position: absolute;
+	align-items: center;
+    justify-content: center;
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+	background-color: rgba(0, 0, 204, 0.4);
+}
+div.GridItem div.PictureOverlay p {
+    font-size: 20px;
+    font-weight: bold;
+}

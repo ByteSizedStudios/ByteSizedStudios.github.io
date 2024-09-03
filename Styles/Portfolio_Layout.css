@@ -1,3 +1,16 @@
+/* Webpage Style */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	color: white;
+	text-align: center;
+	align-items: center;
+	font-family: 'Inter', sans-serif;
+}
+
 /* Nav Bar Style */
 ul.NavBar {
 	top: 0;
@@ -78,4 +91,48 @@ ul.NavBar .RightMenu {
 		padding-left: 5%;
 		padding-right: 15px;
 	}
+}
+
+/* Portfolio Content Layout */
+div.PortfolioContent {
+	background-color: #333333;
+}
+
+div.SectionHeader span.SectionTitle {
+	color: #0000cc;
+	font-size: 40px;
+}
+div.SectionHeader hr.SectionDivider {
+	width: 75%;
+	border-radius: 3px;
+	border: 2px solid #0000cc;
+}
+div.SectionContent {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	text-align: justify;
+}
+
+/* My Introduction */
+#Introduction {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+/* Contact/Socal Media Section */
+.SectionContact {
+	padding-bottom: 10px;
+}
+.SectionContact img {
+	width: 50px;
+	height: 50px;
+	padding: 10px 20px;
+}
+
+/* Footer Section */
+div.Footer {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #1a1a1a;
 }

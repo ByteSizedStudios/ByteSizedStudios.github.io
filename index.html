@@ -9,8 +9,8 @@
 		
 		<script src="Scripts/Portfolio_Navbar.js"></script>
 
-		<link rel="StyleSheet" href="Styles/Portfolio_Navbar.css">
-		<link rel="StyleSheet" href="Styles/Portfolio_Content.css">
+		<link rel="StyleSheet" href="Styles/Portfolio_Layout.css">
+		<link rel="StyleSheet" href="Styles/Portfolio_Projects.css">
 		<link rel="StyleSheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
 	</head>
 	<body>
@@ -38,20 +38,31 @@
 					<hr class="SectionDivider">
 				</div>
 				<div Class="SectionContent">
-					<p>Hello! My name is Peter, and I’m a passionate game developer from Canada. I hold degrees in Game Programming from Humber College and Information Technology from York University, which together provide me with a solid foundation in both the technical and creative aspects of game development.</p>
-					<p>In this portfolio, you’ll find a collection of my personal projects that showcase my skills in game design, programming, and 3D modeling. I specialize in using the Unity game engine and programming in C#, where I’ve developed a range of gameplay mechanics and interactive experiences. Additionally, I have hands-on experience in 3D modeling with Blender and 3Ds Max, enabling me to create detailed assets for my games.</p>
-					<p>Currently, I’m working on an ambitious project: developing my own game engine in C++. This endeavor is challenging my technical expertise and deepening my understanding of the intricacies of game development.</p>
+					<div id="Introduction">
+						<p>Hello! My name is Peter, and I’m a passionate game developer from Canada. I hold degrees in Game Programming from Humber College and Information Technology from York University, which together provide me with a solid foundation in both the technical and creative aspects of game development.</p>
+						<p>In this portfolio, you’ll find a collection of my personal projects that showcase my skills in game design, programming, and 3D modeling. I specialize in using the Unity game engine and programming in C#, where I’ve developed a range of gameplay mechanics and interactive experiences. Additionally, I have hands-on experience in 3D modeling with Blender and 3Ds Max, enabling me to create detailed assets for my games.</p>
+						<p>Currently, I’m working on an ambitious project: developing my own game engine in C++. This endeavor is challenging my technical expertise and deepening my understanding of the intricacies of game development.</p>
+					</div>
 				</div>
 			</div>
 			
-			<!-- Featured Projects -->
-			<div class="FeaturedProjects">
+			<!-- Personal Projects -->
+			<div class="PersonalProjects">
 				<div class="SectionHeader">
-					<span class="SectionTitle"><b>Featured Projects</b></span>
+					<span class="SectionTitle"><b>Personal Projects</b></span>
 					<hr class="SectionDivider">
 				</div>
 				<div Class="SectionContent">
-					
+					<div class="ProjectGrid">
+					<!--
+						<div class="GridItem">
+							<img src="Pictures/Projects/UnityAssets.png">
+							<div class="PictureOverlay">
+								<p>Unity Custom Assets</p>
+							</div>
+						</div>
+					-->
+					</div>
 				</div>
 			</div>
 			
@@ -61,7 +72,7 @@
 					<span class="SectionTitle"><b>Contact Me</b></span>
 					<hr class="SectionDivider">
 				</div>
-				<div Class="SectionContent">
+				<div Class="SectionContact">
 					<p>Please feel free to <a href="mailto:peter.tranz.6225@gmail.com">email</a> me. You can also find me on these social media platforms:</p>
 					<a href="https://www.linkedin.com/in/petertran00/"><img id="SocialMedia" src="Pictures/Logos/Linkedin_Logo.png"></a>
 					<a href="https://github.com/ByteSizedStudios"><img id="SocialMedia" src="Pictures/Logos/Github_Logo.png"></a>
