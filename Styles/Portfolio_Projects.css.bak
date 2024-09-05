@@ -1,7 +1,7 @@
 div.ProjectGrid {
 	gap: 30px;
-	display: grid;
-	padding-left: 12%;
+	display: flex;
+	padding-left: 10%;
 	padding-right: 10%;
 	align-items: center;
 	justify-content: center;
@@ -9,6 +9,7 @@ div.ProjectGrid {
 }
 
 a.GridLink {
+	color: white;
 	text-decoration: none;
 }
 

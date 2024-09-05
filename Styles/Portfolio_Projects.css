@@ -1,7 +1,8 @@
 div.ProjectGrid {
 	gap: 30px;
-	display: grid;
-	padding-left: 12%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 10%;
 	padding-right: 10%;
 	align-items: center;
 	justify-content: center;

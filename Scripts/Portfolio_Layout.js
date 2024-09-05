@@ -1,0 +1,35 @@
+// Nav bar function
+function toggleMenu() {
+	var x = document.getElementById("Nav");
+	if (x.className === "NavBar") {
+		x.className += " Responsive";
+	} else {
+		x.className = "NavBar";
+	}
+}
+document.addEventListener("DOMContentLoaded", function() {
+    var menuItems = document.querySelectorAll(".NavBar .RightMenu .NavLink");
+    menuItems.forEach(function(item) {
+        item.addEventListener("click", function() {
+            var nav = document.getElementById("Nav");
+            if (nav.className === "NavBar Responsive") {
+                nav.className = "NavBar";
+            }
+        });
+    });
+});
+
+// Webpage scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        const offset = document.querySelector('.NavBar').offsetHeight; // Height of the navbar
+
+        window.scrollTo({
+            top: targetElement.offsetTop - offset,
+            behavior: 'smooth'
+        });
+    });
+});

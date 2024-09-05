@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<script src="Scripts/Portfolio_Navbar.js"></script>
+		<script src="Scripts/Portfolio_Layout.js"></script>
 
 		<link rel="StyleSheet" href="Styles/Portfolio_Layout.css">
 		<link rel="StyleSheet" href="Styles/Portfolio_Projects.css">
@@ -20,10 +20,10 @@
 				<li><a href="index.html">Peter Tran | Byte Sized Studios</a></li>
 			</div>
 			<div class="RightMenu">
-				<li><a href="#About_Section"><img src="Pictures/Icons/About_Icon.png">About</a></li>
-				<li><a href="#Projects_Section"><img src="Pictures/Icons/Projects_Icon.png">Projects</a></li>
-				<li><a href="#Contact_Section"><img src="Pictures/Icons/Contact_Icon.png">Contact</a></li>
-				<li><a href="Downloadables/Resume.pdf" download><img src="Pictures/Icons/Resume_Icon.png">Resume</a></li>
+				<li><a href="index.html#About_Section" class="NavLink"><img src="Pictures/Icons/About_Icon.png">About</a></li>
+				<li><a href="index.html#Projects_Section" class="NavLink"><img src="Pictures/Icons/Projects_Icon.png">Projects</a></li>
+				<li><a href="index.html#Contact_Section" class="NavLink"><img src="Pictures/Icons/Contact_Icon.png">Contact</a></li>
+				<li><a href="Downloadables/Resume.pdf"  class="NavLink" download><img src="Pictures/Icons/Resume_Icon.png">Resume</a></li>
 			</div>
 			<li class="Icon">
 				<a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
@@ -31,7 +31,11 @@
 		</ul>
 		
 		<div class="PortfolioContent">
+			<!-- Temp Spacing -->
+			<br><br><br>
+		
 			<!-- About Section -->
+			<div class="ScrollMargin" id="About_Section"></div>
 			<div class="About">
 				<div class="SectionHeader">
 					<span class="SectionTitle"><b>About Me</b></span>
@@ -47,6 +51,7 @@
 			</div>
 			
 			<!-- Personal Projects -->
+			<div class="ScrollMargin" id="Projects_Section"></div>
 			<div class="PersonalProjects">
 				<div class="SectionHeader">
 					<span class="SectionTitle"><b>Personal Projects</b></span>
@@ -54,15 +59,17 @@
 				</div>
 				<div Class="SectionContent">
 					<div class="ProjectGrid">
-						<div class="GridItem">
-							<img src="Pictures/Projects/SRB.png">
-							<div class="PictureOverlay">
-								<p>12 Hour<br>Unity Game</p>
+						<a class="GridLink" href="">
+							<div class="GridItem">
+								<img src="Pictures/Projects/SRB.png">
+								<div class="PictureOverlay">
+									<p>12 Hour<br>Unity Game</p>
+								</div>
+								<div class="ProjectDescription">
+									<p>Designed and developed a Minimum Viable Products (MVP) for a games under tight time constraints. After the inital MVP phase, dedicated additional time to refine and complete the final product.</p>
+								</div>
 							</div>
-							<div class="ProjectDescription">
-								<p>Designed and developed a Minimum Viable Products (MVP) for a games under tight time constraints. After the inital MVP phase, dedicated additional time to refine and complete the final product.</p>
-							</div>
-						</div>
+						</a>
 					
 						<a class="GridLink" href="">
 							<div class="GridItem">
@@ -80,6 +87,7 @@
 			</div>
 			
 			<!-- Contact Section -->
+			<div class="ScrollMargin" id="Contact_Section"></div>
 			<div class="Contact">
 				<div class="SectionHeader">
 					<span class="SectionTitle"><b>Contact Me</b></span>
